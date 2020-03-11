@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.SingletonDB1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tutorial_singleton_DB_A" />
+
+    <Button
+        android:id="@+id/btn_insertValueA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/btn_gotoActivityB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Activity B"/>
+
+    <TextView
+        android:id="@+id/tv_displayResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>

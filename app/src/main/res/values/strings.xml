@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Android101</string>
+    <string name="menu_tutorial_fab">FAB</string>
+    <string name="menu_tutorial_labelledFab">Labelled Fab with Overlay</string>
+    <string name="menu_tutorial_rv">Recycler view</string>
+    <string name="menu_tutorial_et">EditText Listener</string>
+    <string name="menu_tutorial_parcelable">Parcelable Obj Intent</string>
+    <string name="menu_tutorial_botNavBar">Bottom Nav Bar</string>
+    <string name="menu_tutorial_navDrawer">Navigation Drawer</string>
+    <string name="menu_tutorial_navDrawerFrag">Navigation Drawer with Fragmentation</string>
+    <string name="menu_tutorial_navDrawerWithBotNavBar">Nav Drawer + Bot Nav Bar</string>
+    <string name="menu_tutorial_addMenuItemProgrammatically">Add Menu Item Programmatically</string>
+    <string name="menu_tutorial_customDialog">Custom Dialog</string>
+    <string name="menu_tutorial_textSpinner">Text Spinner</string>
+    <string name="menu_tutorial_sqlite">SQLite</string>
+    <string name="menu_tutorial_fragmentWithDialog">Open Dialog in Fragment</string>
+    <string name="menu_tutorial_singleton_DB">Singleton DB</string>
+    <string name="menu_tutorial_datetimepicker">Datetime Picker</string>
+    <string name="menu_tutorial_startActivityForResult">StartActivityForResult</string>
+    <string name="menu_tutorial_addLayerDynamically">Add View Dynamically</string>
+
+    <string name="tutorial_fab">Tutorial: Extendable Floating Action Button</string>
+    <string name="tutorial_labelledFab">Tutorial: Labelled Floating Action Button with Overlay</string>
+    <string name="tutorial_rv">Tutorial: Recycler View Basic</string>
+    <string name="tutorial_et">Tutorial: Auto update EditText</string>
+    <string name="tutorial_parcelable">Tutorial: Parcelable Class</string>
+    <string name="tutorial_botNavBar">Tutorial: Bottom Navigation Bar</string>
+    <string name="tutorial_nav_drawer">Tutorial: Navigation Drawer</string>
+    <string name="tutorial_nav_drawer_frag">Tutorial: Navigation Drawer with Fragmentation</string>
+    <string name="tutorial_navDrawerWithBotNavBar">Tutorial: Navigation Drawer with Bottom Navigation Bar</string>
+    <string name="tutorial_addMenuItemProgrammatically">Tutorial: Add Menu Item Programmatically</string>
+    <string name="tutorial_customDialog">Tutorial: Custom Dialog</string>
+    <string name="tutorial_sqlite">Tutorial: SQLite</string>
+    <string name="tutorial_fragmentWithDialog">Tutorial: Open Dialog in Fragment</string>
+    <string name="tutorial_singleton_DB_A">Tutorial: Singleton DB - Activity A</string>
+    <string name="tutorial_singleton_DB_B">Tutorial: Singleton DB - Activity B</string>
+    <string name="tutorial_datetimepicker">Tutorial: Date Time Picker</string>
+    <string name="tutorial_startActivityForResult">Tutorial: Start Activity For Result</string>
+    <string name="tutorial_addLayerDynamically">Tutorial: Add View Dynamically</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

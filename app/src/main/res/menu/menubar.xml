@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_tutorial_fab"
+        android:title="@string/menu_tutorial_fab" />
+    <item
+        android:id="@+id/menu_tutorial_labelled_fab"
+        android:title="@string/menu_tutorial_labelledFab" />
+    <item
+        android:id="@+id/menu_tutorial_rv"
+        android:title="@string/menu_tutorial_rv" />
+    <item
+        android:id="@+id/menu_tutorial_et"
+        android:title="@string/menu_tutorial_et" />
+    <item
+        android:id="@+id/menu_tutorial_parcelable"
+        android:title="@string/menu_tutorial_parcelable" />
+    <item
+        android:id="@+id/menu_tutorial_botNavBar"
+        android:title="@string/menu_tutorial_botNavBar" />
+    <item
+        android:id="@+id/menu_tutorial_navDrawer"
+        android:title="@string/menu_tutorial_navDrawer" />
+    <item
+        android:id="@+id/menu_tutorial_navDrawerFrag"
+        android:title="@string/menu_tutorial_navDrawerFrag" />
+    <item
+        android:id="@+id/menu_tutorial_navDrawerWithBotNavBar"
+        android:title="@string/menu_tutorial_navDrawerWithBotNavBar" />
+    <item
+        android:id="@+id/menu_tutorial_addMenuItemProgrammatically"
+        android:title="@string/menu_tutorial_addMenuItemProgrammatically" />
+    <item
+        android:id="@+id/menu_tutorial_customDialog"
+        android:title="@string/menu_tutorial_customDialog" />
+    <item
+        android:id="@+id/menu_tutorial_textSpinner"
+        android:title="@string/menu_tutorial_textSpinner" />
+    <item
+        android:id="@+id/menu_tutorial_sqlite"
+        android:title="@string/menu_tutorial_sqlite" />
+    <item
+        android:id="@+id/menu_tutorial_fragmentWithDialog"
+        android:title="@string/menu_tutorial_fragmentWithDialog" />
+    <item
+        android:id="@+id/menu_tutorial_singleton_DB"
+        android:title="@string/menu_tutorial_singleton_DB" />
+    <item
+        android:id="@+id/menu_tutorial_datetimepicker"
+        android:title="@string/menu_tutorial_datetimepicker" />
+    <item
+        android:id="@+id/menu_tutorial_startActivityForResult"
+        android:title="@string/menu_tutorial_startActivityForResult" />
+    <item
+        android:id="@+id/menu_tutorial_addLayerDynamically"
+        android:title="@string/menu_tutorial_addLayerDynamically" />
+</menu>
