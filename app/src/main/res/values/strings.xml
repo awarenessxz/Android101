@@ -18,6 +18,8 @@
     <string name="menu_tutorial_datetimepicker">Datetime Picker</string>
     <string name="menu_tutorial_startActivityForResult">StartActivityForResult</string>
     <string name="menu_tutorial_addLayerDynamically">Add View Dynamically</string>
+    <string name="menu_tutorial_swipeWithviewPager">SwipeViews using ViewPager</string>
+    <string name="menu_tutorial_calendar">Calendar</string>
 
     <string name="tutorial_fab">Tutorial: Extendable Floating Action Button</string>
     <string name="tutorial_labelledFab">Tutorial: Labelled Floating Action Button with Overlay</string>
@@ -37,8 +39,39 @@
     <string name="tutorial_datetimepicker">Tutorial: Date Time Picker</string>
     <string name="tutorial_startActivityForResult">Tutorial: Start Activity For Result</string>
     <string name="tutorial_addLayerDynamically">Tutorial: Add View Dynamically</string>
+    <string name="tutorial_swipeWithviewPager">Tutorial: SwipeViews using ViewPager</string>
+    <string name="tutorial_calendar">Tutorial: Calendar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="calenderViews">
+        <item>Daily View</item>
+        <item>Weekly View</item>
+        <item>Monthly View</item>
+        <item>Yearly View</item>
+    </string-array>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="monday_letter">Mon</string>
+    <string name="tuesday_letter">Tue</string>
+    <string name="wednesday_letter">Wed</string>
+    <string name="thursday_letter">Thu</string>
+    <string name="friday_letter">Fri</string>
+    <string name="saturday_letter">Sat</string>
+    <string name="sunday_letter">Sun</string>
+
 
 </resources>

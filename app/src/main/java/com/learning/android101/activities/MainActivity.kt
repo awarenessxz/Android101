@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.learning.android101.Constants
+import com.learning.android101.MyPreferences
 import com.learning.android101.R
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // ******************** Set codes for on click listener ********************
+
+        btn_quickGo.setOnClickListener {
+            val intent = Intent(this, CalendarActivity::class.java)
+            startActivity(intent)
+        }
 
         btnShowToast.setOnClickListener {
             Log.i("MainActivity", "Button was clicked!") // tag is so that you can filter easily inside logcat terminal
@@ -141,6 +147,16 @@ class MainActivity : AppCompatActivity() {
             R.id.menu_tutorial_addLayerDynamically -> {
                 // Tutorial for adding layer/view dynamically
                 val intent = Intent(this, AddLayerDynamicallyActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.menu_tutorial_swipeWithviewPager -> {
+                // Tutorial for swipe views using view pager
+                val intent = Intent(this, SwipeViewWithViewPagerActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.menu_tutorial_calendar -> {
+                // Tutorial for calendar activity
+                val intent = Intent(this, CalendarActivity::class.java)
                 startActivity(intent)
             }
         }

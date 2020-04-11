@@ -9,6 +9,12 @@
     android:padding="10dp">
 
     <Button
+        android:id="@+id/btn_quickGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Go to Current Project"/>
+
+    <Button
         android:id="@+id/btnShowToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

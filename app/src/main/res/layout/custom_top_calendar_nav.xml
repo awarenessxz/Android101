@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cal_top_nav">
+
+    <ImageView
+        android:id="@+id/top_left_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/top_value"
+        android:layout_alignBottom="@+id/top_value"
+        android:autoMirrored="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_chevron_left"/>
+
+    <TextView
+        android:id="@+id/top_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/top_right_arrow"
+        android:layout_toLeftOf="@+id/top_right_arrow"
+        android:layout_toEndOf="@+id/top_left_arrow"
+        android:layout_toRightOf="@+id/top_left_arrow"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/top_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/top_value"
+        android:layout_alignBottom="@+id/top_value"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoMirrored="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_chevron_right"/>
+
+</merge>

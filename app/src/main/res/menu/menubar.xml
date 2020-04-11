@@ -54,4 +54,10 @@
     <item
         android:id="@+id/menu_tutorial_addLayerDynamically"
         android:title="@string/menu_tutorial_addLayerDynamically" />
+    <item
+        android:id="@+id/menu_tutorial_swipeWithviewPager"
+        android:title="@string/menu_tutorial_swipeWithviewPager" />
+    <item
+        android:id="@+id/menu_tutorial_calendar"
+        android:title="@string/menu_tutorial_calendar" />
 </menu>

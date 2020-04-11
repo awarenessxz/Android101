@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/year_view_holder"
+    tools:context=".fragments.CalYearFragment">
+
+    <TableLayout
+        android:id="@+id/year_view_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        tools:context=".fragments.CalYearFragment">
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/january"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_1"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/february"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_2"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/march"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_3"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/april"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_4"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/may"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_5"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/june"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_6"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/july"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_7"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/august"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_8"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/september"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_9"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/october"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_10"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/november"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_11"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mini_month_holder_12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/mini_month_label_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/december"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"/>
+
+                <com.learning.android101.views.CalSmallMonthView
+                    android:id="@+id/mini_month_view_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mini_month_label_12"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

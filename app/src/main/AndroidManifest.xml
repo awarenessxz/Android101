@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.AddLayerDynamicallyActivity"></activity>
+        <activity android:name=".activities.SwipeViewWithViewPagerActivity" />
+        <activity android:name=".activities.CalendarActivity" />
+        <activity android:name=".activities.AddLayerDynamicallyActivity" />
         <activity android:name=".activities.StartActivityForResult2Activity" />
         <activity android:name=".activities.StartActivityForResultActivity" />
         <activity android:name=".activities.DateTimePickerActivity" />
@@ -43,7 +45,6 @@
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

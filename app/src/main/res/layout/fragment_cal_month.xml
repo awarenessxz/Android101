@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/month_view_holder"
+    android:paddingTop="15dp"
+    tools:context=".fragments.CalMonthFragment">
+
+    <include
+        layout="@layout/custom_top_calendar_nav"/>
+
+    <com.learning.android101.views.CalMonthView
+        android:id="@+id/month_view_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_value"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
