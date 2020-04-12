@@ -85,11 +85,13 @@ class CalDayFragmentHolder : CalFragmentHolder(), CalNavigationListener {
         var days = getDaysRange(currentDateTime)
         currentViewPage = days.size / 2                           // reason: current Date is stored in middle of array
 
+        // Reset View Pager
+        viewPager.clearOnPageChangeListeners()
+
         // Initialize View Pager
         val dayViewPagerAdapter = CalDayViewPagerAdapter(activity!!.supportFragmentManager, days, this)
         viewPager.adapter = dayViewPagerAdapter
         viewPager.currentItem = currentViewPage
-        viewPager.clearOnPageChangeListeners()
         viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {
                 // Refresh the viewPager when the user swiped till the edge

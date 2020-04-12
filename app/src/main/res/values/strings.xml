@@ -20,6 +20,7 @@
     <string name="menu_tutorial_addLayerDynamically">Add View Dynamically</string>
     <string name="menu_tutorial_swipeWithviewPager">SwipeViews using ViewPager</string>
     <string name="menu_tutorial_calendar">Calendar</string>
+    <string name="menu_tutorial_settings">Settings</string>
 
     <string name="tutorial_fab">Tutorial: Extendable Floating Action Button</string>
     <string name="tutorial_labelledFab">Tutorial: Labelled Floating Action Button with Overlay</string>
@@ -41,6 +42,7 @@
     <string name="tutorial_addLayerDynamically">Tutorial: Add View Dynamically</string>
     <string name="tutorial_swipeWithviewPager">Tutorial: SwipeViews using ViewPager</string>
     <string name="tutorial_calendar">Tutorial: Calendar</string>
+    <string name="tutorial_settings">Tutorial: Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -72,6 +74,22 @@
     <string name="friday_letter">Fri</string>
     <string name="saturday_letter">Sat</string>
     <string name="sunday_letter">Sun</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 
 </resources>

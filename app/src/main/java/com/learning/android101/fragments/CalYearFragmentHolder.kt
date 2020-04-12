@@ -78,11 +78,13 @@ class CalYearFragmentHolder : CalFragmentHolder() {
         var years = getYearsRange(currentYear)
         currentViewPage = years.size / 2                    // reason: current year is stored in middle of array
 
+        // Reset View Pager
+        viewPager.clearOnPageChangeListeners()
+
         // Initalize ViewPager
         val yearViewPagerAdapter = CalYearViewPagerAdapter(activity!!.supportFragmentManager, years)
         viewPager.adapter = yearViewPagerAdapter
         viewPager.currentItem = currentViewPage
-        viewPager.clearOnPageChangeListeners()
         viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {
                 // Refresh the viewPager when the user swiped till the edge

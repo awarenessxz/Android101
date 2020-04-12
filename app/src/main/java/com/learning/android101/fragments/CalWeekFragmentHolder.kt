@@ -88,6 +88,9 @@ class CalWeekFragmentHolder : CalFragmentHolder(), SyncScrollListener {
         var weeks = getWeeksRange(firstDateOfWeek)
         currentViewPage = weeks.size / 2                           // reason: current Date is stored in middle of array
 
+        // Reset View Pager
+        viewPager.clearOnPageChangeListeners()
+
         // Initalize View Pager
         val weekViewPagerAdapter = CalWeekViewPagerAdapter(activity!!.supportFragmentManager, weeks, this)
         viewPager.adapter = weekViewPagerAdapter

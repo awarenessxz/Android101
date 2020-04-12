@@ -85,11 +85,13 @@ class CalMonthFragmentHolder : CalFragmentHolder() {
         var months = getMonthsRange(currentDateTime)
         currentViewPage = months.size / 2                           // reason: current Date is stored in middle of array
 
+        // Reset View Pager
+        viewPager.clearOnPageChangeListeners()
+
         // Initialize View Pager
         val monthViewPagerAdapter = CalMonthViewPagerAdapter(activity!!.supportFragmentManager, months)
         viewPager.adapter = monthViewPagerAdapter
         viewPager.currentItem = currentViewPage
-        viewPager.clearOnPageChangeListeners()
         viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {
                 // Refresh the viewPager when the user swiped till the edge

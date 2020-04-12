@@ -60,4 +60,7 @@
     <item
         android:id="@+id/menu_tutorial_calendar"
         android:title="@string/menu_tutorial_calendar" />
+    <item
+        android:id="@+id/menu_tutorial_settings"
+        android:title="@string/menu_tutorial_settings" />
 </menu>
