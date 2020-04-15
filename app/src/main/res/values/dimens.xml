@@ -4,4 +4,9 @@
     <dimen name="year_text_size">12sp</dimen>
     <dimen name="week_view_height">1440dp</dimen>
     <dimen name="week_view_cell_height">60dp</dimen>
+
+    <dimen name="color_picker_radius">2dp</dimen>
+    <dimen name="color_picker_circle_border">3dp</dimen>
+    <dimen name="color_picker_bar_border">2dp</dimen>
+    <dimen name="color_picker_bar_height">48dp</dimen>
 </resources>

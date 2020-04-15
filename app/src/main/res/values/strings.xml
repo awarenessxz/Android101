@@ -21,6 +21,7 @@
     <string name="menu_tutorial_swipeWithviewPager">SwipeViews using ViewPager</string>
     <string name="menu_tutorial_calendar">Calendar</string>
     <string name="menu_tutorial_settings">Settings</string>
+    <string name="menu_tutorial_colorPicker">Color Picker</string>
 
     <string name="tutorial_fab">Tutorial: Extendable Floating Action Button</string>
     <string name="tutorial_labelledFab">Tutorial: Labelled Floating Action Button with Overlay</string>
@@ -43,6 +44,7 @@
     <string name="tutorial_swipeWithviewPager">Tutorial: SwipeViews using ViewPager</string>
     <string name="tutorial_calendar">Tutorial: Calendar</string>
     <string name="tutorial_settings">Tutorial: Settings</string>
+    <string name="tutorial_colorPicker">Tutorial: Color Picker</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -63,4 +63,7 @@
     <item
         android:id="@+id/menu_tutorial_settings"
         android:title="@string/menu_tutorial_settings" />
+    <item
+        android:id="@+id/menu_tutorial_colorPicker"
+        android:title="@string/menu_tutorial_colorPicker" />
 </menu>

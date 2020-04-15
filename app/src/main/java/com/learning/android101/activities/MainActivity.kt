@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         // ******************** Set codes for on click listener ********************
 
         btn_quickGo.setOnClickListener {
-            val intent = Intent(this, SettingsActivity::class.java)
+            val intent = Intent(this, ColorPickerActivity::class.java)
             startActivity(intent)
         }
 
@@ -179,6 +179,11 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             R.id.menu_tutorial_settings -> {
                 // Tutorial for Settings
                 val intent = Intent(this, SettingsActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.menu_tutorial_colorPicker -> {
+                // Tutorial for Color Picker
+                val intent = Intent(this, ColorPickerActivity::class.java)
                 startActivity(intent)
             }
         }
