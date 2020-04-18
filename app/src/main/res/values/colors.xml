@@ -30,5 +30,6 @@
     <color name="colorPickerPink">#FF00FF</color>
     <color name="colorPickerWhite">#FFFFFF</color>
     <color name="colorPickerBlack">#000000</color>
+    <color name="colorPickerGrey">#dddddd</color>
 
 </resources>

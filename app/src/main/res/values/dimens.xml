@@ -5,8 +5,18 @@
     <dimen name="week_view_height">1440dp</dimen>
     <dimen name="week_view_cell_height">60dp</dimen>
 
+    <!-- color picker -->
     <dimen name="color_picker_radius">2dp</dimen>
     <dimen name="color_picker_circle_border">3dp</dimen>
     <dimen name="color_picker_bar_border">2dp</dimen>
     <dimen name="color_picker_bar_height">48dp</dimen>
+
+    <!-- hsv color picker -->
+    <dimen name="color_picker_panel_border">2dp</dimen>
+    <dimen name="color_picker_panel_gap">20dp</dimen>
+    <dimen name="color_picker_sat_val_panel_height">200dp</dimen>
+    <dimen name="color_picker_hue_panel_height">40dp</dimen>
+    <dimen name="color_picker_alpha_panel_height">20dp</dimen>
+    <dimen name="color_picker_pointer_radius">10dp</dimen>
+    <dimen name="color_picker_pointer_width">10dp</dimen>
 </resources>

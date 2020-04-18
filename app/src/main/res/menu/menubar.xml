@@ -66,4 +66,7 @@
     <item
         android:id="@+id/menu_tutorial_colorPicker"
         android:title="@string/menu_tutorial_colorPicker" />
+    <item
+        android:id="@+id/menu_tutorial_hsvColorPicker"
+        android:title="@string/menu_tutorial_hsvcolorPicker" />
 </menu>
