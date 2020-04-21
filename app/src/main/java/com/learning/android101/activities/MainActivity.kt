@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
         // ******************** Set codes for on click listener ********************
 
         btn_quickGo.setOnClickListener {
-            val intent = Intent(this, ColorHSVPickerActivity::class.java)
+            val intent = Intent(this, BotNavBarWithFabActivity::class.java)
             startActivity(intent)
         }
 
@@ -104,6 +104,11 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
             R.id.menu_tutorial_botNavBar -> {
                 // Tutorial for bottom navigation bar with fragment
                 val intent = Intent(this, BotNavBarActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.menu_tutorial_botNavBarWithFAB -> {
+                // Tutorial for bottom navigation bar with fragment and FAB
+                val intent = Intent(this, BotNavBarWithFabActivity::class.java)
                 startActivity(intent)
             }
             R.id.menu_tutorial_navDrawer -> {

@@ -6,6 +6,7 @@
     <string name="menu_tutorial_et">EditText Listener</string>
     <string name="menu_tutorial_parcelable">Parcelable Obj Intent</string>
     <string name="menu_tutorial_botNavBar">Bottom Nav Bar</string>
+    <string name="menu_tutorial_botNavBarWithFAB">Bottom Nav Bar With FAB</string>
     <string name="menu_tutorial_navDrawer">Navigation Drawer</string>
     <string name="menu_tutorial_navDrawerFrag">Navigation Drawer with Fragmentation</string>
     <string name="menu_tutorial_navDrawerWithBotNavBar">Nav Drawer + Bot Nav Bar</string>
@@ -30,6 +31,7 @@
     <string name="tutorial_et">Tutorial: Auto update EditText</string>
     <string name="tutorial_parcelable">Tutorial: Parcelable Class</string>
     <string name="tutorial_botNavBar">Tutorial: Bottom Navigation Bar</string>
+    <string name="tutorial_botNavBarWithFab">Tutorial: Bottom Navigation Bar With FAB</string>
     <string name="tutorial_nav_drawer">Tutorial: Navigation Drawer</string>
     <string name="tutorial_nav_drawer_frag">Tutorial: Navigation Drawer with Fragmentation</string>
     <string name="tutorial_navDrawerWithBotNavBar">Tutorial: Navigation Drawer with Bottom Navigation Bar</string>

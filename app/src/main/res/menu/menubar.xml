@@ -19,6 +19,9 @@
         android:id="@+id/menu_tutorial_botNavBar"
         android:title="@string/menu_tutorial_botNavBar" />
     <item
+        android:id="@+id/menu_tutorial_botNavBarWithFAB"
+        android:title="@string/menu_tutorial_botNavBarWithFAB" />
+    <item
         android:id="@+id/menu_tutorial_navDrawer"
         android:title="@string/menu_tutorial_navDrawer" />
     <item
